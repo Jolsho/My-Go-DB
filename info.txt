@@ -1,0 +1,11 @@
+
+TODOS::
+    pages/space -- incorporate consolidation and ID checks for var length
+
+    When you load a new page make sure initial tuple is right length
+        that is len(body) - 1*TUPLE_SIZE
+
+    Logger -- Need to do more thorough recovery protocols 
+        accouting for unflushed stuff, LSNs, and the like
+
+    Incorporate some signal handlers for smooth shutdown
